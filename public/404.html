@@ -1,0 +1,12 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <script>
+            const keywords = location.pathname.split('/');
+            const path = '/' + keywords[1] + '/';
+            const param = '/' + keywords.slice(2).join('/');
+            location.href = location.protocol + '//' + location.host + path + '#' + param;
+        </script>
+    </body>
+</html>

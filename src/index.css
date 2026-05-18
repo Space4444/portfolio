@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+
+.sider-toggle-light:hover {
+    border-color: #2d99ff !important;
+}
+
+.sider-toggle-dark:hover {
+    border-color: #5efff4 !important;
+}
