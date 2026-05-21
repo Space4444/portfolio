@@ -30,6 +30,14 @@ const items = [
         children: [
             { key: '/pulsegenerator', label: 'Pulse generator' },
         ],
+    },
+    {
+        key: 'other',
+        label: 'Other',
+        type: 'group',
+        children: [
+            { key: '/electricity', label: 'Electrical experiments' },
+        ],
     }
 ];
 

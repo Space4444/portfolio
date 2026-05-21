@@ -1,15 +1,11 @@
 import { Link } from 'react-router-dom';
-import { useContext } from 'react';
 import { Layout, Card } from 'antd';
-import { ThemeContext } from '../context';
 
 
-const { Content, Header } = Layout;
+const { Content } = Layout;
 
 
 export default function About() {
-    const { isDark } = useContext(ThemeContext);
-
     return (
         <Content style={{
             display: 'flex',

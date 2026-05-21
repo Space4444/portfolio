@@ -1,7 +1,8 @@
 import { useState, useEffect, useContext } from 'react';
-import { ConfigProvider, theme, Switch, Layout } from 'antd';
-import { SunFilled, MoonFilled } from '@ant-design/icons';
-import { Routes, Route, Navigate, useLocation } from 'react-router-dom';
+import { ConfigProvider, theme, Switch, Layout, Button } from 'antd';
+import { SunFilled, MoonFilled, GithubFilled, YoutubeFilled } from '@ant-design/icons';
+import { Routes, Route, Navigate, useLocation, Link } from 'react-router-dom';
+import telegramLogo from './assets/telegram_black.svg';
 import Menu from './components/Menu';
 import About from './pages/About';
 import Projects from './pages/Projects';
@@ -34,7 +35,10 @@ function App() {
                     },
                 },
                 token: {
-                    colorPrimary: isDark ? '#5efff4' : '#2d99ff'
+                    colorPrimary: isDark ? '#5efff4' : '#2d99ff',
+                    colorLink: isDark ? '#3bceff' : '#1677ff',
+                    colorLinkHover: isDark ? '#cffff2' : '#084c9f',
+                    colorLinkActive: isDark ? '#1e74ff' : '#011c48'
                 }
             }}
         >
@@ -71,8 +75,22 @@ function App() {
 
                     <Footer style={{
                         textAlign: 'center',
-                        backgroundColor: isDark ? '#002' : 'rgb(130, 180, 230)'
-                    }}></Footer>
+                        backgroundColor: isDark ? '#002' : 'rgb(142, 173, 193)'
+                    }}>
+                        <Link to='https://github.com/Space4444' target='_blank'>
+                            <Button type='text' size='large' icon={<GithubFilled />} />
+                        </Link>
+                        <Link to='https://www.youtube.com/@space_games' target='_blank'>
+                            <Button type='text' size='large' icon={<YoutubeFilled />} />
+                        </Link>
+                        <Link to='https://t.me/AlexKD99' target='_blank'>
+                            <Button type='text' size='large' icon={
+                                <img className={isDark ? 'white-filter' : ''} width={18} src={telegramLogo}/>
+                            }/>
+                        </Link>
+                        <br/>
+                        &copy; Copyright 2026 Space4444
+                    </Footer>
 
                 </Layout>
 

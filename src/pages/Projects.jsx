@@ -12,6 +12,7 @@ import StarFlight from './projects/StarFlight';
 import SpaceAction2D from './projects/SpaceAction2D';
 import Tradesim from './projects/Tradesim';
 import PulseGenerator from './projects/PulseGenerator';
+import Electricity from './projects/Electricity';
 
 
 const { Sider, Content, Header } = Layout;
@@ -82,6 +83,7 @@ export default function Projects() {
                 <Route path='/spaceaction2d' element={<SpaceAction2D />} />
                 <Route path='/tradesim' element={<Tradesim />} />
                 <Route path='/pulsegenerator' element={<PulseGenerator />} />
+                <Route path='/electricity' element={<Electricity />} />
             </Routes>
         </Content>
     </>);

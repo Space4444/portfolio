@@ -8,3 +8,15 @@
 .sider-toggle-dark:hover {
     border-color: #5efff4 !important;
 }
+
+.blue-filter {
+    filter: brightness(0) saturate(100%) invert(21%) sepia(100%) saturate(4684%) hue-rotate(220deg) brightness(101%) contrast(107%);
+}
+
+.blue-filer:hover {
+    filter: brightness(0) saturate(100%) invert(76%) sepia(41%) saturate(690%) hue-rotate(111deg) brightness(105%) contrast(101%);
+}
+
+.white-filter {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7463%) hue-rotate(322deg) brightness(110%) contrast(102%);
+}
