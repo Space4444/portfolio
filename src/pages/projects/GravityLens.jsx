@@ -13,8 +13,22 @@ export default function GravityLens() {
         <div className='text-3xl'>Gravity Lens</div>
 
         <div className='my-2'>
-            This is 2D space game made with C# and Unity for Android. It can also be run on Windows.
+            This is 2D space game made with C# and Unity. Versions for Android, Web and Windows are available.
         </div>
+                        
+        <a className='text-lg leading-loose inline-flex' href='https://space4444.github.io/Gravity-Lens/' target='_blank'>
+            <div className='underline'>Play web version</div>
+            <LinkExternal />
+        </a>
+
+        <br/>
+                
+        <a className='text-lg leading-loose inline-flex' href='https://play.unity.com/en/games/1ce8673b-bb4e-4247-8310-a7e31f2e90d7/gravitylens' target='_blank'>
+            <div className='underline'>Play on UnityPlay</div>
+            <LinkExternal />
+        </a>
+        
+        <br/>
         
         <a className='text-lg leading-loose inline-flex' href='https://github.com/Space4444/Gravity-Lens' target='_blank'>
             <div className='underline'>GitHub repository</div>

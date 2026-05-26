@@ -24,7 +24,7 @@ export default function About() {
                     and did some experiments with Tesla coils and other high voltage things.
                 </p>
                 <p className='my-2'>
-                    Corrently I'm working on trading software using JS, Python, C++ and Cuda.
+                    Currently I'm working on trading software using JS, Python, C++ and Cuda.
                 </p>
                 <p className='my-2'>
                     <Link to='/projects'>

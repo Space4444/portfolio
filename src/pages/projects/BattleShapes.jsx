@@ -18,13 +18,30 @@ export default function BattleShapes() {
         <div className='text-3xl'>Battle Shapes</div>
 
         <div className='my-2'>
-            This is 2D game where you control a triangular spaceship and fight against alien geometric shapes. It is made with Unity and C# for Android.
+            This is 2D game where you control a triangular spaceship and fight against alien geometric shapes. It is made with Unity and C#.
+            Versions for Android, Web and Windows are available.
         </div>
+                
+        <a className='text-lg leading-loose inline-flex' href='https://space4444.github.io/Battle-shapes/' target='_blank'>
+            <div className='underline'>Play web version</div>
+            <LinkExternal />
+        </a>
+
+        <br/>
+                
+        <a className='text-lg leading-loose inline-flex' href='https://play.unity.com/en/games/6987fd3c-8ecd-4d28-8f59-ca21a9befdd1/battleshapes' target='_blank'>
+            <div className='underline'>Play on UnityPlay</div>
+            <LinkExternal />
+        </a>
+        
+        <br/>
         
         <a className='text-lg leading-loose inline-flex' href='https://github.com/Space4444/Battle-shapes/' target='_blank'>
             <div className='underline'>GitHub repository</div>
             <LinkExternal />
         </a>
+
+        <br/>
 
         <a className='text-lg leading-loose' href='https://raw.githubusercontent.com/Space4444/Battle-Shapes/refs/heads/master/BattleShapes.apk'>
             <div className='underline'>Download for Android</div>

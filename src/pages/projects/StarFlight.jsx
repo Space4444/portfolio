@@ -14,12 +14,19 @@ export default function StarFlight() {
         <div className='text-3xl'>Star Flight</div>
 
         <div className='my-2'>
-            This is simple space game where you control a spacecraft and dodge asteroids. It is made with Unity and C# and can be played on Android, Windows or Web. The latest version is
-            currently built only for Android and Web.
+            This is simple space game where you control a spacecraft and dodge asteroids.
+            It is made with Unity and C# and can be played on Android, Windows or Web.
         </div>
         
         <a className='text-lg leading-loose inline-flex' href='https://space4444.github.io/StarFlight' target='_blank'>
             <div className='underline'>Play web version</div>
+            <LinkExternal />
+        </a>
+        
+        <br/>
+                
+        <a className='text-lg leading-loose inline-flex' href='https://play.unity.com/en/games/0231d30d-965b-40bc-bd11-981863ae8c88/starflight' target='_blank'>
+            <div className='underline'>Play on UnityPlay</div>
             <LinkExternal />
         </a>
 
