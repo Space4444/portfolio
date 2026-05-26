@@ -34,7 +34,7 @@ export default function Tradesim() {
         <div className='mt-2'>
             Firstly, it downloads 100 days of 1m historical data
             of random forex pair and random time range from Dukascopy. Then it adds a random number to all dates displayed on the chart.
-            This is done in order to make remembering charts more difficult.
+            This is done in order to make charts more difficult to remember.
         </div>
 
         <div className='mt-2'>

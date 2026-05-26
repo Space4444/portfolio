@@ -1,5 +1,6 @@
 import Images from '../../components/Images';
 import LinkExternal from '../../components/LinkExternal';
+import YoutubeEmbed from '../../components/YoutubeEmbed';
 import screen1 from '../../assets/gl_screen1.png';
 import screen2 from '../../assets/gl_screen2.png';
 import screen3 from '../../assets/gl_screen3.png';
@@ -51,6 +52,8 @@ export default function GravityLens() {
             {src: screen5},
             {src: screen6}
         ]}/>
+                
+        <YoutubeEmbed src='https://youtube.com/embed/1r3vRV1qGJ4' />
 
         <div className='my-2'>
             You control a black hole and "eat" surrounding asteroids, planets, stars and other black holes.
@@ -59,7 +62,7 @@ export default function GravityLens() {
 
         <div className='my-2'>
             All game objects and background are generated procedurally.
-            There are shaders that simulate "gravitational lens" and "gravitational redshift" effects.
+            There are shaders that simulate "spaghettification", "gravitational lens" and "gravitational redshift" effects.
         </div>
     </>);
 }

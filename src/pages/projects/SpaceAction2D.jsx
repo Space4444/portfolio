@@ -1,5 +1,6 @@
 import Images from '../../components/Images';
 import LinkExternal from '../../components/LinkExternal';
+import YoutubeEmbed from '../../components/YoutubeEmbed';
 import screen1 from '../../assets/sa_screen1.png';
 
 
@@ -23,6 +24,8 @@ export default function SpaceAction2D() {
         <Images items={[
             {src: screen1}
         ]}/>
+        
+        <YoutubeEmbed src='https://youtube.com/embed/fQhSZqSGUKE' />
 
         <div className='my-2'>
             You control a spaceship and fight against alien spaceships.

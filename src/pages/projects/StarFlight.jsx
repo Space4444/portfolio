@@ -2,6 +2,7 @@ import { useContext } from 'react';
 import { ThemeContext } from '../../context';
 import Images from '../../components/Images';
 import LinkExternal from '../../components/LinkExternal';
+import YoutubeEmbed from '../../components/YoutubeEmbed';
 import screen1 from '../../assets/sf_screen1.png';
 
 
@@ -48,6 +49,8 @@ export default function StarFlight() {
         <Images items={[
             {src: screen1}
         ]}/>
+                
+        <YoutubeEmbed src='https://youtube.com/embed/R8NCzSQ3xEI' />
 
         <div className='my-2'>
             Fly through endless space, collect energy and dodge asteroids. In the settings you can choose whether the camera will rotate following the player or not.
